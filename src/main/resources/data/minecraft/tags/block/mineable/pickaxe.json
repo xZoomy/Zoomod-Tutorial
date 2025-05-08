@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zoomod:pink_garnet_block",
+    "zoomod:pink_garnet_ore",
+    "zoomod:pink_garnet_deepslate_ore",
+    "zoomod:raw_pink_garnet_block"
+  ]
+}

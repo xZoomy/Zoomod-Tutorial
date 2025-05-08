@@ -3,6 +3,7 @@ package com.zoom.zoomod.block;
 import com.zoom.zoomod.Zoomod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,10 +17,16 @@ public class ModBlocks {
 
     // strength(hardness, resitance) = time, explosion
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
-            AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK));
+            AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK));
 
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
-            AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE));
+            AbstractBlock.Settings.create().strength(5f).requiresTool());
+
+    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+            ExperienceDroppingBlock.Settings.create().strength(3f).requiresTool());
+
+    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
+            ExperienceDroppingBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Zoomod.MOD_ID, name));

@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.2,
-  "group": "pink_garnet",
-  "ingredient": "zoomod:raw_pink_garnet",
+  "group": "raw_pink_garnet",
+  "ingredient": "zoomod:pink_garnet_deepslate_ore",
   "result": {
-    "id": "zoomod:pink_garnet"
+    "id": "zoomod:raw_pink_garnet"
   }
 }

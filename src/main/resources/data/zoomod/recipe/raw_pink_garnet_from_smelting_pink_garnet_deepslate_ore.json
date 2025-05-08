@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "raw_pink_garnet",
+  "ingredient": "zoomod:pink_garnet_deepslate_ore",
+  "result": {
+    "id": "zoomod:raw_pink_garnet"
+  }
+}
