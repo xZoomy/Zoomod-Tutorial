@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures" : {
-    "all": "zoomod:block/pink_garnet_ore_block"
+    "all": "zoomod:block/raw_pink_garnet_block"
   }
 }

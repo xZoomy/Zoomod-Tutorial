@@ -27,7 +27,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.zoomod.zoomod_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
-                        entries.add(ModBlocks.PINK_GARNET_ORE_BLOCK);
+                        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
