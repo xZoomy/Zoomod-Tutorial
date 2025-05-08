@@ -40,4 +40,3 @@ replay_*.log
 *.jfr
 
 # Project exclude paths
-/.github/
