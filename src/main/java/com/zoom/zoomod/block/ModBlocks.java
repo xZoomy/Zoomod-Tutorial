@@ -26,7 +26,7 @@ public class ModBlocks {
             ExperienceDroppingBlock.Settings.create().strength(3f).requiresTool());
 
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
-            ExperienceDroppingBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
+            ExperienceDroppingBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)); // TODO: verifier si l'exp drop bien
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Zoomod.MOD_ID, name));
