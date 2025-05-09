@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " # ",
+    "#S#",
+    "S# "
+  ],
+  "key": {
+    "S": [
+      "minecraft:stick"
+    ],
+    "#": [
+      "zoomod:pink_garnet"
+    ]
+  },
+  "result": {
+    "id": "zoomod:chisel",
+    "count": 1
+  }
+}
